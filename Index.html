@@ -189,8 +189,9 @@
           <div class="physical">
             ${book.physical.map(p => `<div>${p.place} - ${p.address}</div>`).join("")}
           </div>
+          </div>
 
-      `).join("");
+`).join("");
 
       if (results.length === 0) catalogDiv.innerHTML = "<p>Nenhum livro encontrado.</p>";
     }
